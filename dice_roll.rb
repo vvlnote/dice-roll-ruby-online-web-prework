@@ -8,4 +8,3 @@ def roll
   binding.pry
   arr[index]
 end
-roll
