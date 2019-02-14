@@ -4,7 +4,7 @@
 require 'pry'
 def roll
   arr = [1,2,3,4,5,6]
-  index = random(0..5)
+  index = rand(0..5)
   binding.pry
   arr[index]
 end
